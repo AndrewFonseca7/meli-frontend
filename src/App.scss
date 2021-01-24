@@ -1,0 +1,18 @@
+$brand-yellow: #ffe500;
+$brand-black: #333333;
+$brand-gray-1: #eeeeee;
+$brand-gray-2: #999999;
+$brand-gray-3: #666666;
+$brand-blue: #3483fa;
+
+.bg-brand-yellow {
+	background-color: $brand-yellow;
+}
+
+.App {
+	background-color: $brand-gray-1;
+	min-height: 100vh;
+	height: 100%;
+	overflow: auto;
+	padding-bottom: 20px;
+}

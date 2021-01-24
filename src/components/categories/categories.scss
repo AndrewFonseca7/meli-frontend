@@ -1,0 +1,18 @@
+$brand-gray-2: #999999;
+
+.categories {
+	margin: 16px auto;
+	font-size: 14px;
+	a,
+	a:hover,
+	span {
+		color: $brand-gray-2;
+		text-decoration: none;
+		font-weight: 300;
+	}
+	:last-child,
+	:last-child:hover {
+		text-decoration: none;
+		font-weight: 600;
+	}
+}
