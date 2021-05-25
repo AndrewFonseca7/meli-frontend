@@ -1,0 +1,31 @@
+$brand-gray-1: #eeeeee;
+$brand-gray-2: #999999;
+$brand-gray-3: #666666;
+
+.results {
+	display: flex;
+	flex-flow: column;
+
+	&-categories {
+		margin: 16px auto;
+		font-size: 14px;
+		a,
+		a:hover,
+		span {
+			color: $brand-gray-2;
+			text-decoration: none;
+			font-weight: 300;
+		}
+		:last-child,
+		:last-child:hover {
+			text-decoration: none;
+			font-weight: 600;
+		}
+	}
+
+	&-items {
+		background-color: #ffffff;
+		margin: 0 auto;
+		border-radius: 4px;
+	}
+}
